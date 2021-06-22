@@ -351,7 +351,7 @@ WHERE continent = 'Europe'
   SELECT id, stadium, team1, team2 FROM game
   WHERE id=1012
 ```
-3. 
+3. You can combine the two steps into a single query with a JOIN.
 ```sql
   SELECT player, teamid, stadium, mdate
     FROM game JOIN goal ON game.id = goal.matchid
