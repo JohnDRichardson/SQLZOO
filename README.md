@@ -115,11 +115,11 @@ My answers for [SQLzoo](https://sqlzoo.net) questions
   SELECT name
      FROM world
   WHERE name LIKE '%a%' AND
-    name LIKE '%e%' AND
-    name LIKE '%i%' AND
-    name LIKE '%o%' AND
-    name LIKE '%u%' AND
-    name NOT LIKE '% %'
+        name LIKE '%e%' AND
+        name LIKE '%i%' AND
+        name LIKE '%o%' AND
+        name LIKE '%u%' AND
+        name NOT LIKE '% %'
 ```
 
 ## SELECT from Nobel
